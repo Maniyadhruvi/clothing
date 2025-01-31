@@ -1,5 +1,5 @@
 import React from 'react'
-import './category-item-style.scss';
+import '../../Componenets/Category-item/category-item-style.scss';
 
 const Categoryitem = ({ category }) => {
     const { imgUrl, title } = category;
@@ -15,5 +15,4 @@ const Categoryitem = ({ category }) => {
         </div>
     )
 }
-
-export default Categoryitem
+export default Categoryitem;
