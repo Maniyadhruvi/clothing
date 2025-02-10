@@ -6,25 +6,24 @@ import '../../Routes/Navigation/NavigationStyle.scss';
 const Navigation = () => {
     return (
         <Fragment>
-
             <div className="Navigation">
-
                 <div>
-                    <Link className="logo-container" to='/'>
+                    <Link className="logo-container" to='/home'>
                         <CrownLogo className='logo' />
                     </Link>
                 </div>
-
 
                 <div className="navigation-link-container">
                     <Link className="nav-link" to='/shop'>
                         SHOP
                     </Link>
-                </div>
 
+                    <Link className="nav-link" to='/signin'>
+                        SIGN IN
+                    </Link>
+                </div>
             </div>
             <Outlet />
-
         </Fragment>
     )
 }
